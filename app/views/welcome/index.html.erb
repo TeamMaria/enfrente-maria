@@ -1,5 +1,5 @@
 <!-- Jumbotron -->
-<div class="site-wrapper">
+<div id='topo' class="site-wrapper">
 
       <div class="site-wrapper-inner">
 
@@ -7,11 +7,11 @@
 
           <div class="inner cover">
             <h1 class="cover-heading">EnFrente, Maria!</h1>
-            <p class="lead">Aqui você pode desabafar, buscar ajuda, ajudar outras Marias, descobrir oportunidades e muito mais. E o melhor de tudo: TOTALMENTE SEGURA!</p>
-            <p class="lead">
-              <a href="<%=stories_path%>" class="btn btn-lg btn-default">Quero ajudar!</a>
-              <a href="#" class="btn btn-lg btn-default">Preciso de Ajuda!</a>
-            </p>
+            <p class="lead">Aqui você pode desabafar, buscar ajuda, ajudar outras Marias, descobrir oportunidades e muito mais. <br/> E o melhor de tudo: TOTALMENTE SEGURA!</p>
+            <div class="botoes">
+              <a href="#quero-ajudar" class="btn btn-lg btn-default">Quero ajudar!</a>
+              <a href="#preciso-ajuda" class="btn btn-lg btn-default">Preciso de Ajuda!</a>
+            </div>
           </div>
 
         </div>
@@ -19,3 +19,300 @@
       </div>
 
     </div>
+
+
+<div class="relato-form-container" id='preciso-ajuda'><div class="container">
+   <h2>Preciso de Ajuda</h2>
+  <form>
+    <div class="form-group">
+      <textarea class="form-control" rows="5" placeholder="Digite seu relato"></textarea>
+    </div>
+    <div class="form-group">
+      <select class="form-control">
+        <option>Categoria</option>
+        <option>Assédio</option>
+        <option>Discriminação</option>
+        <option>Relacionamento Abusivo</option>
+        <option>Oportunidades</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <select class="form-control">
+        <option>Visibilidade</option>
+        <option>Anônimo</option>
+        <option>Só para Mulheres</option>
+        <option>Público</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <textarea class="form-control" rows="3" placeholder="Digite sua solução, se houver"></textarea>
+    </div>
+    
+     <a href="#" class="btn btn-lg btn-success pull-right">Enviar</a>
+    
+  </form>
+  </div></div>
+
+<div class="relato-list-container" id='quero-ajudar'> <div class="container">
+  <h2>Quero Ajudar</h2>
+  <div class="relato assedio">
+    
+    <div class="cabecalho-relato row">
+      <img src='http://www.saboresajinomoto.com.br/images/avatar-no.jpg' class='img-circle avatar col-sm-2'>
+      <div class='col-xs-9'>
+        <h4>Bárbara Maria </h4>
+        <h5>Postado às 20:00 do dia 23/05</h5>
+      </div> 
+    </div>  
+
+    <div class="texto-relato row">
+Todos os dias, independente da hora, vestuário ou cara fechada, nós mulheres sempre sofremos com o assédio. Ontem, enquanto eu caminhava com uma amiga na avenida onde eu morava, um homem, que estava no meio de um bando, passou a mão em mim. Olhei pra trás e eles todos riram. Fiquei extremamente constrangida.
+    </div>
+    
+    <div class="botoes-relato row">
+      <button type="button" class="btn btn-default btn-sm">
+        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Apoiar
+      </button>
+      <button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#modal-comentarios">
+        <span class="glyphicon glyphicon-comment" aria-hidden="true"></span> Comentários
+      </button>
+      <button type="button" class="btn btn-default btn-sm">
+        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Denunciar
+      </button>
+    </div>
+    
+  </div>
+  
+  <div class="relato discriminacao">
+      <div class="cabecalho-relato row">
+      <img src='http://www.saboresajinomoto.com.br/images/avatar-no.jpg' class='img-circle avatar col-sm-2'>
+      <div class='col-xs-9'>
+        <h4>Fernanda Maria </h4>
+        <h5>Postado às 16:00 do dia 01/03</h5>
+      </div> 
+    </div>  
+
+    <div class="texto-relato row">
+No ano passado eu passeava num shopping de Curitiba com a minha mãe, quando gostei de uma blusa. Entrei na loja.Vi o preço. Era caríssima. Mesmo assim quis experimentar. Mas ninguém me atendia. As vendedoras me olhavam de cima para baixo. Olhavam e faziam que não me via.Fiquei nervosa e fui embora. Disse a minha mãe o que tinha acontecido. Decidi então voltar. Entrei e contei ate dez. Todos continuavam 
+a me ignorar. Ai explodi. "Será que tenho de abrir minha bolsa e mostrar o cartão de credito?" Virei as costas e sai. A gerente então correu atrás de mim. Tentou me explicar que não podia adivinhar que eu tinha dinheiro para comprar a blusa. Não quis ouvi-la, não. Poxa, só porque sou negra não posso ter dinheiro? O preconceito 
+existe, sim...
+    </div>
+    
+    <div class="botoes-relato row">
+      <button type="button" class="btn btn-default btn-sm">
+        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Apoiar
+      </button>
+      <button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#modal-comentarios">
+        <span class="glyphicon glyphicon-comment" aria-hidden="true"></span> Comentários
+      </button>
+      <button type="button" class="btn btn-default btn-sm">
+        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Denunciar
+      </button>
+    </div>
+  </div>
+  
+  <div class="relato relacionamento">
+  
+    <div class="cabecalho-relato row">
+      <img src='http://www.saboresajinomoto.com.br/images/avatar-no.jpg' class='img-circle avatar col-sm-2'>
+      <div class='col-xs-9'>
+        <h4>Gabriela Maria </h4>
+        <h5>Postado às 09:00 do dia 28/02</h5>
+      </div> 
+    </div>  
+
+    <div class="texto-relato row">
+As agressões começaram quando comecei a trabalhar.Ele não acreditava em mim, achou que eu ficava com homens no meio da rua. Um dia ele judiou muito de mim, fez machucado bem grande na minha cabeça. Ele arrancou a porta, jogou na minha perna. Arrancou metade dos meus cabelos. (...) Ainda tô fazendo tratamento psicológico.
+    </div>
+    
+    <div class="botoes-relato row">
+      <button type="button" class="btn btn-default btn-sm">
+        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Apoiar
+      </button>
+      <button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#modal-comentarios">
+        <span class="glyphicon glyphicon-comment" aria-hidden="true"></span> Comentários
+      </button>
+      <button type="button" class="btn btn-default btn-sm">
+        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Denunciar
+      </button>
+    </div>
+  
+  </div>
+ 
+  <div class="relato oportunidade">
+    
+    <div class="cabecalho-relato row">
+      <img src='http://www.saboresajinomoto.com.br/images/avatar-no.jpg' class='img-circle avatar col-sm-2'>
+      <div class='col-xs-9'>
+        <h4>Maria </h4>
+        <h5>Postado às 15:10 do dia 20/02</h5>
+      </div> 
+    </div>  
+
+    <div class="texto-relato row">
+Se você conhece meninas de 13 a 23 anos que têm conhecimento/interesse em lógica de programação, conta pra elas do Ignite International Girls Hackathon Brazil!
+Vamos ajudar a construir iniciativas que resultem em ambientes mais seguros para garotas. O evento vai acontecer nos dias 28/02 e 01/03 na ThoughtWorks, em Porto Alegre.
+    </div>
+    
+    <div class="botoes-relato row">
+      <button type="button" class="btn btn-default btn-sm">
+        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Apoiar
+      </button>
+      <button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#modal-comentarios">
+        <span class="glyphicon glyphicon-comment" aria-hidden="true"></span> Comentários
+      </button>
+      <button type="button" class="btn btn-default btn-sm">
+        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Denunciar
+      </button>
+    </div>
+  </div>
+  
+  </div></div>
+
+<a href='#topo'  class="btn btn-default botao-topo" aria-label="Left Align">
+  <span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span>
+</a>
+
+<div class="modal fade" id="modal-comentarios">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Comentários</h4>
+      </div>
+      <div class="modal-body">
+       
+     <div class="relato assedio relato-comentario">
+    
+    <div class="cabecalho-relato row">
+      <img src='http://www.saboresajinomoto.com.br/images/avatar-no.jpg' class='img-circle avatar col-xs-2'>
+      <div class='col-xs-9'>
+        <h4>Bárbara Maria </h4>
+        <h5>Postado às 20:00 do dia 23/05</h5>
+      </div> 
+    </div>  
+
+    <div class="texto-relato row">
+Todos os dias, independente da hora, vestuário ou cara fechada, nós mulheres sempre sofremos com o assédio. Ontem, enquanto eu caminhava com uma amiga na avenida onde eu morava, um homem, que estava no meio de um bando, passou a mão em mim. Olhei pra trás e eles todos riram. Fiquei extremamente constrangida.
+    </div>
+    
+    <div class="botoes-relato row">
+      <button type="button" class="btn btn-default btn-sm">
+        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Apoiar
+      </button>
+      <button type="button" class="btn btn-default btn-sm">
+        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Denunciar
+      </button>
+    </div>
+    
+  </div>   
+        
+        <div class="comentario">
+    
+    <div class="cabecalho-relato row">
+     
+      <div class='col-xs-9'>
+        <h4>Eduarda Maria </h4>
+        <h5>Postado às 22:05 do dia 23/05</h5>
+      </div> 
+    </div>  
+
+    <div class="row">
+    Sofri em minha casa durante 10 anos. Eu sofri vários tipos de violência, psicológica e agressões físicas. Eu não aguentava mais. Eu decidi que tinha de denunciá-lo e através da minha denúncia hoje sou mais feliz.
+    </div>
+    
+    <div class="botoes-relato row">
+      <button type="button" class="btn btn-default btn-sm">
+        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Apoiar
+      </button>
+      <button type="button" class="btn btn-default btn-sm">
+        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Denunciar
+      </button>
+    </div>
+    
+  </div>
+        
+        <div class="comentario">
+    
+    <div class="cabecalho-relato row">
+      
+      <div class='col-xs-9'>
+        <h4>Paula Maria </h4>
+        <h5>Postado às 22:32 do dia 23/05</h5>
+      </div> 
+    </div>  
+
+    <div class="row">
+    As agressões começaram quando comecei a trabalhar.Ele não acreditava em mim, achou que eu ficava com homens no meio da rua. Um dia ele judiou muito de mim, fez machucado bem grande na minha cabeça. Ele arrancou a porta, jogou na minha perna. Arrancou metade dos meus cabelos. (...) Ainda tô fazendo tratamento psicológico.
+
+    </div>
+    
+    <div class="botoes-relato row">
+      <button type="button" class="btn btn-default btn-sm">
+        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Apoiar
+      </button>
+      <button type="button" class="btn btn-default btn-sm">
+        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Denunciar
+      </button>
+    </div>
+    
+  </div>
+        
+        <div class="comentario">
+    
+    <div class="cabecalho-relato row">
+      
+      <div class='col-xs-9'>
+        <h4>Elisa Maria </h4>
+        <h5>Postado às 23:10 do dia 23/05</h5>
+      </div> 
+    </div>  
+
+    <div class="row">
+    Não há dúvidas: a mulher está mais sujeita ao assédio sexual em todas as carreiras e isso se deve, principalmente, à cultura brasileira de "objetificação do corpo feminino" e pela ideia enganosa de que mulheres "dizem não querendo dizer sim",
+    </div>
+    
+    <div class="botoes-relato row">
+      <button type="button" class="btn btn-default btn-sm">
+        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Apoiar
+      </button>
+      <button type="button" class="btn btn-default btn-sm">
+        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Denunciar
+      </button>
+    </div>
+    
+  </div>
+        
+        <div class="comentario">
+    
+    <div class="cabecalho-relato row">
+      
+      <div class='col-xs-9'>
+        <h4>Maria </h4>
+        <h5>Postado às 03:00 do dia 01/03</h5>
+      </div> 
+    </div>  
+
+    <div class="row">
+    A dificuldade de provar o assédio sexual e de punir o agressor também decorre da tolerância de nossa sociedade em face da agressão contra a mulher, vista muitas vezes como natural. Por conta disso, a maioria das mulheres tem medo de denunciar seus assediadores, ou por vergonha do ocorrido, ou por medo de que a culpa recaia sobre elas mesmas.
+    </div>
+    
+    <div class="botoes-relato row">
+      <button type="button" class="btn btn-default btn-sm">
+        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Apoiar
+      </button>
+      <button type="button" class="btn btn-default btn-sm">
+        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Denunciar
+      </button>
+    </div>
+    
+  </div>
+        
+        
+</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div>
